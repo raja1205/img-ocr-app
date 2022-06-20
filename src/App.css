@@ -1,0 +1,124 @@
+body {
+  font-family: sans-serif;
+  background:  #716bae;
+/*  background: #0D122B;*/
+/*  color: white; */
+}
+
+.App {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.App h1 {
+  font-size: 2.5rem;
+  margin: 3rem 0 0 0;
+  text-align: center;
+  color: white;
+}
+
+.App p {
+/*  color: #1a1a11;*/
+  font-size: 1.5rem;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.input-wrapper label {
+  display: inline-block;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: coral;
+  color: #fff;
+}
+
+.input-wrapper input[type="file"] {
+  position: absolute;
+  right: 225px;
+  top: 6px;
+  z-index: -1;
+  font-size: 15px;
+  color: #1a1a11;
+}
+
+.result {
+  margin-top: 4rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.result .box-image {
+  background: #E6A36F;
+  height: 100%;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result .box-p {
+  background: #ddd;
+  height: 100%;
+  padding: 1rem;
+
+}
+
+.result img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.result p {
+  line-height: 1.5rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media (min-width: 1000px) {
+  .result {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.center {
+  text-align: center;
+}
+.input-wrapper p {
+  font-size: 100%;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+button {
+  margin-right: 2rem;
+  margin-bottom: -2rem;
+}
+
+.white {color: white}
