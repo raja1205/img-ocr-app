@@ -12,5 +12,5 @@
 - Supported formats: JPEG, PNG, BMP
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./assets/img-ocr-app4.png)
 
