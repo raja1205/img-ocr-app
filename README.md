@@ -1,5 +1,6 @@
 # Image OCR  Application
 > A web based OCR application to extract text from an Image.
+> OCR stands for "Optical Character Recognition." It is a technology that recognizes text within a digital image. It is commonly used to recognize text in scanned documents and images.
 > 
 <a href="https://img-ocr-app.netlify.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Demo-007FFF?style=for-the-badge&logo=&logoColor=white" style="margin-bottom: 5px;" /></a>
 
