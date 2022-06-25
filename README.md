@@ -14,4 +14,4 @@
 - Supported formats: JPEG, PNG, BMP
 
 ## Screenshot
-<img src="https://github.com/raja1205/assets/blob/main/img-ocr-app4.png" style="margin-bottom: 5px;" />
+<img src="https://github.com/raja1205/assets/blob/main/img-ocr-app4.jpg" style="margin-bottom: 5px;" />
